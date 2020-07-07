@@ -1,0 +1,46 @@
+h1 {
+    font-family: sans-serif;
+}
+
+.btn-col {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.container { 
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1, div {
+    margin-bottom: 30px;
+}
+
+.result-row{
+    display:flex;
+    justify-content: center;
+    text-align: center; 
+    width: 100%;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.block-icon-exchange {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.icon-exchange{
+    text-align: center;
+    color: #FF6b6b;
+}
+.icon-exchange:hover{
+    cursor: pointer;
+    color: #FF6b6b;
+    text-shadow: 0 0 15px #FF6b6b;
+}
+
